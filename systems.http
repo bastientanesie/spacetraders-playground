@@ -1,0 +1,9 @@
+### All systems
+
+GET https://{{host}}/game/systems
+Authorization: Bearer {{token}}
+
+### List locations in the system
+
+GET https://{{host}}/systems/OE/locations?type=planet
+Authorization: Bearer {{token}}

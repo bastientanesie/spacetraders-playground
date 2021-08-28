@@ -1,0 +1,12 @@
+### API status
+
+GET https://{{host}}/game/status
+
+### Claiming a username
+
+POST https://{{host}}/users/{{username}}/claim
+
+### Leaderboards
+
+GET https://{{host}}/game/leaderboard/net-worth
+Authorization: Bearer {{token}}

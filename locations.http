@@ -1,0 +1,14 @@
+### Get location's info
+
+GET https://{{host}}/locations/OE-PM-TR
+Authorization: Bearer {{token}}
+
+### Marketplace
+
+GET https://{{host}}/locations/OE-PM-TR/marketplace
+Authorization: Bearer {{token}}
+
+### Docket ships
+
+GET https://{{host}}/locations/OE-PM-TR/ships
+Authorization: Bearer {{token}}

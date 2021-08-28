@@ -1,0 +1,4 @@
+### My account
+
+GET https://{{host}}/my/account
+Authorization: Bearer {{token}}

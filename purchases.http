@@ -1,0 +1,11 @@
+### Buy fuel
+
+POST https://{{host}}/my/purchase-orders
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    "shipId": "{{shipId}}",
+    "good": "FUEL",
+    "quantity": 20
+}

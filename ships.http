@@ -1,0 +1,35 @@
+### All ships types
+
+GET https://{{host}}/types/ships
+Authorization: Bearer {{token}}
+
+### Undocumented: purchasable ships (filterable, eg. ?class=MK-I)
+
+GET https://{{host}}/game/ships
+Authorization: Bearer {{token}}
+
+### My ships
+
+GET https://{{host}}/my/ships
+Authorization: Bearer {{token}}
+
+### List ships in a system
+
+GET https://{{host}}/systems/OE/ship-listings?class=MK-I
+Authorization: Bearer {{token}}
+
+### Purchase
+
+POST https://{{host}}/my/ships
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    "location": "OE-PM-TR",
+    "type": "GR-MK-I"
+}
+
+### Ship info
+
+GET https://{{host}}/my/ships/{{shipId}}
+Authorization: Bearer {{token}}
